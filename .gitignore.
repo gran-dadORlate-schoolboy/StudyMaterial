@@ -3,4 +3,4 @@ __pycache__/
 #Исключим сам файл .gitignore:
 .gitignore
 *.iml
-*.xml
+.idea/*

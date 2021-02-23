@@ -1,8 +1,0 @@
-﻿Комбинации клавиш и сокращения в IntellijJDEA
-        -sout + tab       -> System.out.println();
-        -psvm +   tab  -> public static void main(String[] args){    }
-        -Ctrl + / однострочный коментарий
-        - Ctrl + Y        ->  Удалилть стороку
-	-Ctrl + d -> ддублировать строку
-        - Shift + Ctrl + Enter -> переход на новую строку
-        -

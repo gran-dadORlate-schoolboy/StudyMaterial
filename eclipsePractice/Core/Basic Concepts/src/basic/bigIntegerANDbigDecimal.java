@@ -1,0 +1,69 @@
+package basic;
+
+import java.math.BigInteger;
+
+public class bigIntegerANDbigDecimal {
+
+	public static void main(String[] args) {
+		
+		BigInteger b = BigInteger.valueOf(99999999) ;
+		BigInteger a = BigInteger.valueOf(88888888);
+		BigInteger c = b.add(a);//c = b + a
+		BigInteger v = b.multiply(a); // v = b*a
+		BigInteger n = b.subtract(a);
+		System.out.println(c);
+		System.out.println(v);
+		System.out.println(n);
+		int number = n.intValue();//перевод в инт
+		
+		
+//		Основные методы класса BigInteger:
+//
+//			BigInteger add(BigInteger other): возвращает сумму двух чисел
+//
+//			BigInteger subtract(BigInteger other): возвращает разность двух чисел
+//
+//			BigInteger multiply(BigInteger other): возвращает произведение двух чисел
+//
+//			BigInteger divide(BigInteger other): возвращает частное двух чисел
+//
+//			BigInteger mod(BigInteger other): возвращает остаток от целочисленного деления двух чисел
+//
+//			BigInteger sqrt(): возвращает квадратный корень числа
+//
+//			int compareTo(BigInteger other): сравнивает два числа. Возвращает -1, если текущий объект меньше числа other, 1 - если текущий объект больше и 0 - если числа равны
+//
+//			static BigInteger valueOf(long x): возвращает объект BigInteger, значение которого равно числу, переданному в качестве параметра
+//
+//			int intValue(): конвертирует объект BigInteger в объект int
+//
+//			byte byteValue(): преобразует объект BigInteger в byte
+//
+//			short shortValue(): преобразует объект BigInteger в short
+//
+//			long longValue(): преобразует объект BigInteger в long
+//
+//			Основные методы класса BigDecimal:
+//
+//			BigDecimal add(BigDecimal other): возвращает сумму двух чисел
+//
+//			BigDecimal subtract(BigDecimal other): возвращает разность двух чисел
+//
+//			BigDecimal multiply(BigDecimal other): возвращает произведение двух чисел
+//
+//			BigDecimal divide(BigDecimal other): возвращает частное двух чисел
+//
+//			BigDecimal divide(BigDecimal other, RoundingMode mode): результат деления двух чисел, округленное в соответствии с режимом mode
+//
+//			int compareTo(BigDecimal other): сравнивает два числа. Возвращает -1, если текущий объект меньше числа other, 1 - если текущий объект больше и 0 - если числа равны
+//
+//			static BigDecimal valueOf(double x): возвращает объект BigDecimal, значение которого равно числу, переданному в качестве параметра
+//
+//			double doubleValue(): преобразует объект BigDecimal в double
+//
+//			float floatValue(): преобразует объект BigDecimal в float
+//
+//			Пример использования классов BigInteger и BigDecimal:
+	}
+
+}
